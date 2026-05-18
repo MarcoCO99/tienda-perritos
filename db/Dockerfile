@@ -3,6 +3,7 @@ FROM mysql:8
 
 # Variables de entorno (se aplicarán automáticamente al iniciar el contenedor)
 # Comentario de demostración
+# comentario para la prueba de marco Contreras
 ENV MYSQL_ROOT_PASSWORD=admin123
 ENV MYSQL_DATABASE=tienda_perritos
 ENV MYSQL_USER=alumno

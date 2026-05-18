@@ -17,7 +17,7 @@ app.use(cors());
 app.use(express.json());
 
 let pool;
-
+// Comentario del backend
 // Inicializar pool de conexiones
 async function initDb() {
   try {
